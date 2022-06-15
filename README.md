@@ -1,8 +1,8 @@
 # Cybersecurity-Bootcamp-Project-1
 
-Automated ELK Stack Deployment
+**Automated ELK Stack Deployment**
 
-The files in this repository were used to configure the network depicted below.
+The files in this repository were used to configure the network depicted _below_.
 
 <img width="1033" alt="Project_1_Diagram" src="https://user-images.githubusercontent.com/99222430/173910754-a6443fd4-4516-43a7-9032-305f758ae335.png">
 
@@ -22,7 +22,7 @@ This document contains the following details:
 - How to Use the Ansible Build
 
 
-Description of the Topology
+**Description of the Topology**
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
@@ -42,7 +42,7 @@ The configuration details of each machine may be found below.
 | Web 2     | Server   | 10.0.0.6   | Linux (Ubuntu)   |
 |ELK Server |Log Server| 10.1.0.4   | Linux (Ubuntu)   |
 
-Access Policies
+**Access Policies**
 
 The machines on the internal network are not exposed to the public Internet. 
 
@@ -64,7 +64,7 @@ A summary of the access policies in place can be found in the table below.
 |  Web 2         |      No           |   10.0.0.6    |
 |  Elk Server    |     Yes           |   Personal    |
 
-Elk Configuration 
+**Elk Configuration**
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because with Ansible, you can create and deploy multiple servers without having to deal with a physical server.
 
@@ -78,12 +78,12 @@ The following screenshot displays the result of running `docker ps` after succes
 <img width="869" alt="docker ps" src="https://user-images.githubusercontent.com/99222430/173910898-cd9220f9-4196-45fb-b507-9a26d9fa51b8.png">
 
 
-Target Machines & Beats
+**Target Machines & Beats**
 
 This ELK server is configured to monitor the following machines:
 
-Web 1 (10.0.0.5)
-Web 2 (10.0.0.6)
+- Web 1 (10.0.0.5)
+- Web 2 (10.0.0.6)
 
 We have installed the following Beats on these machines:
 
@@ -96,7 +96,7 @@ These Beats allow us to collect the following information from each machine:
 
 - Metricbeat collects metrics and statistics on the system and servers. For example, we can use Metricbeat to monitor CPU usage or monitor other parts of a systems health.
 
-Using the Playbook
+**Using the Playbook**
 
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
